@@ -1,23 +1,25 @@
 # TÍTULO DO PROJETO
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Trabalho Interdisciplinar: Aplicações para Processos de Negócios`
 
-`SEMESTRE`
+`2° Semestre`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Desenvolvimento de um aplicativo que utiliza tecnologias como JavaScript, banco de dados MYSQL e NodeJS projetado para garantir a segurança, escalabilidade e usabilidade enquanto centraliza informações sobre paineis solares, conecta usuários a empresas do ramo e educa sobre a energia solar.
+
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Isaque Caetano Nascimento
+* Gabriel Soares Reis Nunes Ferreira
+* Robson Marcolino da Silva Junior
+* Maria Clara Maciel Muniz
+* Lucas de Paula Silva
 
 ## Orientador
 
-* Nome completo do professor 1
+* Cleia Marcia Gomes Amaral
 
 ## Instruções de utilização
 
