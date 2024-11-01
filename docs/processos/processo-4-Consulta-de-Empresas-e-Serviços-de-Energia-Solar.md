@@ -23,12 +23,10 @@ O usuário então irá descrever o problema pedindo por recomendações de empre
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
 | ---             | ---              | ---            | ---               |
 | Descrição do problema | Área de Texto  |  Mínimo 15 caracteres, Máximo 500 caracteres              |                   |
-|                 |                  |                |                   |
 
 | **Comandos**         |  **Destino**                   | **Tipo**          |
 | ---                  | ---                            | ---               |
 | Enviar mensagem | Mensagem para o chat automatizado  | Default |
-|                      |                                |                   |
 
 **Atividade 3 - Preencher formulário**
 
@@ -40,12 +38,10 @@ O usuário irá então preencher um formulário para que as recomendações poss
 | Qual o tamanho do local disponível? | Caixa de Texto  | Mínimo 4 caracteres, Máximo 20 caracteres              |                   |
 | Qual é o tipo de instalação à procura? | Seleção múltipla  | Opções Residencial, Comercial, Industrial e Rural               |                   |
 | Detalhes adicionais | Área de Texto  | Máximo 300 caracteres               |                   |
-|                 |                  |                |                   |
 
 | **Comandos**         |  **Destino**                   | **Tipo**          |
 | ---                  | ---                            | ---               |
 | Enviar mensagem | Mensagem para o chat automatizado  | Default |
-|                      |                                |                   |
 
 **Atividade 4 - Visualizar recomendações**
 
@@ -54,4 +50,3 @@ O chat automatizado então irá determinar quais empresas possuem informações 
 | **Comandos**         |  **Destino**                   | **Tipo**          |
 | ---                  | ---                            | ---               |
 | Visualizar recomendações | Ir para a lista de recomendações  | Default |
-|                      |                                |                   |

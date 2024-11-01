@@ -29,12 +29,10 @@ O usuário irá preencher e enviar um formulário com os dados cadastrais de sua
 | E-Mail para contato | Caixa de Texto  | Máximo 35 caracteres, validação automática de e-mail              |                   |
 | Descrição completa da empresa e serviços oferecidos | Área de Texto  | Mínimo 300 caracteres, Máximo 3000 caracteres               |                   |
 | Motivo para o cadastro | Área de Texto  | Mínimo 100 caracteres, Máximo 3000 caracteres               |                   |
-|                 |                  |                |                   |
 
 | **Comandos**         |  **Destino**                   | **Tipo**          |
 | ---                  | ---                            | ---               |
 | Enviar formulário | Mensagem para o administrador (Atividade 3) | Default |
-|                      |                                |                   |
 
 **Atividade 3 - Validar dados cadastrais**
 
@@ -43,17 +41,14 @@ A plataforma permite a visualização dos dados para que o administrador da plat
 | **Comandos**         |  **Destino**                   | **Tipo**          |
 | ---                  | ---                            | ---               |
 | Visualizar formulário recebido | Tela de análise de formulário  | Default |
-|  
 
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
 | ---             | ---              | ---            | ---               |
 | Aprovação de Formulário | Seleção Única  | Opções Aprovar ou Reprovar               |                   |
-|                 |                  |                |                   |
 
 | **Comandos**         |  **Destino**                   | **Tipo**          |
 | ---                  | ---                            | ---               |
 | Enviar aprovação | Mensagem de aprovação  | Default |
-|                      |                                |                   |
 
 No caso do formulário ser reprovado o usuário irá receber de forma automática uma notificação que diz a respeito da falha do cadastro e terá que informar os dados novamente caso queira se cadastrar como empresa parceira.
 
@@ -66,9 +61,7 @@ Caso a empresa não seja aceita, ela será notificada de forma automática a res
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
 | ---             | ---              | ---            | ---               |
 | Aprovação da empresa | Seleção Única  | Opções Aprovar ou Reprovar              |                   |
-|                 |                  |                |                   |
 
 | **Comandos**         |  **Destino**                   | **Tipo**          |
 | ---                  | ---                            | ---               |
 | Enviar aprovação | Notificação de aprovação  | Default |
-|                      |                                |                   |

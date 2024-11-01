@@ -14,7 +14,6 @@ O processo de atendimento e suporte ao cliente se inicia com o usuário criando 
 | **Comandos**         |  **Destino**                   | **Tipo** |
 | ---                  | ---                            | ---               |
 | Abrir chat automatizado | Tornar visível chat na tela  | Default |
-|                      |                                |                   |
 
 **Atividade 2 - Descrever o problema**
 
@@ -23,12 +22,10 @@ O usuário irá descrever o problema ou situação o qual ele necessita de ajuda
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
 | ---             | ---              | ---            | ---               |
 | Descrição do problema | Área de Texto  |  Mínimo 15 caracteres, Máximo 500 caracteres              |                   |
-|                 |                  |                |                   |
 
 | **Comandos**         |  **Destino**                   | **Tipo**          |
 | ---                  | ---                            | ---               |
 | Enviar mensagem | Mensagem para o chat automatizado  | Default |
-|                      |                                |                   |
 
 O chat automatizado então irá verificar nos materiais disponíveis por uma resposta e irá disponibilizar a resposta que mais se adequar ao problema do usuário. Irá então perguntar se esta resposta satisfaz o usuário.
 
@@ -40,9 +37,7 @@ Caso ele não esteja satisfeito poderá continuar o atendimento ao responder que
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
 | ---             | ---              | ---            | ---               |
 | Resposta me satisfaz | Seleção única  |  Opções Sim ou Não              |                   |
-|                 |                  |                |                   |
 
 | **Comandos**         |  **Destino**                   | **Tipo**          |
 | ---                  | ---                            | ---               |
 | Enviar resposta | Mensagem para o chat automatizado  | Default |
-|                      |                                |                   |

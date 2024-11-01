@@ -2,19 +2,13 @@
 
 ### 3.1. Modelagem da situação atual (Modelagem AS IS)
 
-_Apresente uma descrição textual de como os sistemas atuais resolvem o problema que se propõe a resolver.  Caso sua proposta seja inovadora e não existam processos claramente definidos, **apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente**, mesmo que não se utilize tecnologia computacional._
-
-Com o tema do projeto definido, escolham alguns processos neste contexto de negócios. Para ilustrar potenciais ganhos com a automatização, imaginem processos manuais, ineficientes e/ou com muitas idas e vindas, gerando, assim, retrabalho.
-Colem aqui os modelos dos processos atuais (modelo AS-IS), elaborados com o apoio da ferramenta baseada em BPMN utilizada na disciplina.
+Atualmente, muitas pessoas que buscam informações sobre energia solar enfrentam dificuldades para encontrar informações confiáveis e centralizadas. O processo de pesquisa costuma ser manual, ineficiente e fragmentado, exigindo idas e vindas entre vários sites para comparar dados, fornecedores e orçamentos. Isso gera retrabalho, erros na coleta de informações e custos desnecessários, tanto para os consumidores quanto para as empresas de energia solar.
+Este projeto busca resolver isto, porém muitos processos ainda são ineficientes e demorados para se realizar, como por exemplo o envio de feedback necessita que o usuário procure um e-mail para enviar o feedback, o cadastro de empresas parceiras na plataforma é manual e o processo é lento, usuários que estão buscando uma empresa ou serviço de energia solar tem que manualmente procurar na página de empresas parceiras pela mais adequada a sua situação e o processo de atendimento e suporte ao cliente acontece através de mensagems por e-mail, o que é muitas vezes inconveniente para os usuários.
 
 ### 3.2. Descrição geral da proposta (Modelagem TO BE)
 
-Atualmente, muitas pessoas que buscam informações sobre energia solar enfrentam dificuldades para encontrar informações confiáveis e centralizadas. O processo de pesquisa costuma ser manual, ineficiente e fragmentado, exigindo idas e vindas entre vários sites para comparar dados, fornecedores e orçamentos. Isso gera retrabalho, erros na coleta de informações e custos desnecessários, tanto para os consumidores quanto para as empresas de energia solar.
-
-#### Potenciais ganhos com a automação:
-
 A criação de um site dedicado à energia solar centraliza todas as informações necessárias para o consumidor, reduzindo a necessidade de visitar vários sites. Ao funcionar como um catálogo de empresas prestadoras de serviço, o site facilita a comparação de opções, a e a obtenção de informações confiáveis. Isso melhora a experiência do usuário e também ajuda as empresas, que poderão expor seus serviços de forma organizada e acessível. 
-Exemplo de melhorias que a plataforma terá: Chatbox para atendimento ao cliente, filtro de pesquisas automáticas para consulta de empresas e serviços, Validações automáticas cadastro automatizado de empresas.
+A plataforma terá diversas melhorias quanto aos seus processos, aqui estão alguns exemplos: Chat automatizado dentro da plataforma para o atendimento ao cliente, além do chat automatizado há filtros de pesquisas automáticas para consulta de empresas e serviços, validações automáticas para formulários e empresas parceiras serão cadastradas automaticamente ao serem aprovadas.
 
 #### Limites da solução: 
 Embora o site melhore a visibilidade das empresas e centralize informações, ele pode não solucionar completamente questões como a variação de preços regionais ou a necessidade de visitas técnicas. Além disso, o sucesso dependerá da adesão das empresas ao catálogo e da qualidade das informações apresentadas.

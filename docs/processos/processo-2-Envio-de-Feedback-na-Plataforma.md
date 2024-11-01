@@ -14,7 +14,6 @@ O processo de envio de feedback da plataforma se inicia com o usuário indo até
 | **Comandos**         |  **Destino**                   | **Tipo** |
 | ---                  | ---                            | ---               |
 | Visitar página de Feedback | Ir para a página de feedback  | Default |
-|                      |                                |                   |
 
 **Atividade 2 - Preencher Formulário**
 
@@ -25,10 +24,8 @@ O usuário preencherá um formulário mencionando quais funcionalidades o feedba
 | Funcionalidade direcionada | Caixa de Texto  |  Mínimo 10 caracteres, Máximo 40 caracteres              |                   |
 | Satisfação Geral | Seleção única  |    Opções de 0 a 5            |                   |
 | Descrição do Feedback | Área de Texto  |   Mínimo 30 caracteres, Máximo 400 caracteres             |                   |
-|                 |                  |                |                   |
 
 | **Comandos**         |  **Destino**                   | **Tipo**          |
 | ---                  | ---                            | ---               |
 | Enviar feedback | Armazenar Feedback  | Default |
-|                      |                                |                   |
 
