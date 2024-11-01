@@ -25,10 +25,10 @@ O site alinha-se com a estratégia de promover o uso de energia limpa, facilitan
 
 ### 3.3. Modelagem dos processos
 
-[PROCESSO 1 - Atendimento e Suporte ao Cliente](./processos/processo-1-nome-do-processo.md "Detalhamento do Processo 1.")
+[PROCESSO 1 - Atendimento e Suporte ao Cliente](./processos/processo-1-Atendimento-e-Suporte-ao-Cliente.md "Detalhamento do Processo 1.")
 
-[PROCESSO 2 - Envio de Feedback na Plataforma](./processos/processo-2-nome-do-processo.md "Detalhamento do Processo 2.")
+[PROCESSO 2 - Envio de Feedback na Plataforma](./processos/processo-2-Envio-de-Feedback-na-Plataforma.md "Detalhamento do Processo 2.")
 
-[PROCESSO 3 - Cadastro de Empresas Parceiras](./processos/processo-2-nome-do-processo.md "Detalhamento do Processo 2.")
+[PROCESSO 3 - Cadastro de Empresas Parceiras](./processos/processo-3-Cadastro-de-Empresas-Parceiras.md "Detalhamento do Processo 2.")
 
-[PROCESSO 4 - Consulta de Empresas e Serviços de Energia Solar](./processos/processo-2-nome-do-processo.md "Detalhamento do Processo 2.")
+[PROCESSO 4 - Consulta de Empresas e Serviços de Energia Solar](./processos/processo-4-Consulta-de-Empresas-e-Serviços-de-Energia-Solar.md "Detalhamento do Processo 2.")
