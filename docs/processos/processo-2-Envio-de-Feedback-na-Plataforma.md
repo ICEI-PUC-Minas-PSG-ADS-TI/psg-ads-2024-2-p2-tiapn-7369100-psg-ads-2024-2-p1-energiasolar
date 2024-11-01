@@ -3,7 +3,7 @@
 _Apresente aqui o nome e as oportunidades de melhoria para o processo 1. 
 Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN._
 
-![Diagrama Processo 2](../images/Processo2_Diagrama.png "Modelo BPMN do Processo 2.")
+![Diagrama Processo 2](../images/DiagramaProcessos/Processo2_Diagrama.png "Modelo BPMN do Processo 2.")
 
 #### Detalhamento das atividades
 
