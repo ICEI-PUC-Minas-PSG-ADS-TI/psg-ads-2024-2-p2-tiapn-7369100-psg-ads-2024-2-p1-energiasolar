@@ -1,60 +1,78 @@
 # 5. Planejamento do Projeto
 
-> Aqui será feito o gerenciamento das tarefas de implementação do projeto.
-
 ## 5.1. Divisão de Papéis
 
-> Apresente a divisão de papéis entre os membros do grupo em cada sprint. O desejável é que, em cada sprint, o aluno assuma papéis diferentes na disciplina. Siga o modelo do exemplo abaixo:
+- _Scrum master_: Maria Clara Maciel
+- Product Owner: Isaque Caetano Nascimento
+- Desenvolvedor front-end: Robson Marcolino da Silva Junior
+- Desenvolvedor front-end: Gabriel Soares Reis Nunes Ferreira
+- Desenvolvedor back-end: Lucas de Paula Silva
 
-### Sprint 1
-- _Scrum master_: AlunaX
-- Protótipos: AlunoY
-- Testes: AlunoK
-- Documentação: AlunaZ
-
-### Sprint 2
-- _Scrum master_: AlunaY
-- Desenvolvedor _front-end_: AlunoX
-- Desenvolvedor _back-end_: AlunoK
-- Testes: AlunaZ
-
-## 5.1. Quadro de tarefas
-
-> Apresente a divisão de tarefas entre os membros do grupo e o acompanhamento da execução, conforme exemplo abaixo.
+## 5.2. Quadro de tarefas
 
 ## Sprint 1
 
-Atualizado em: 21/04/2024
+Atualizado em: 02/11/2024
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
-| AlunaX        | Introdução | 01/02/2024     | 07/02/2024 | ✔️    | 05/01/2005      |
-| AlunaZ        | Objetivos    | 03/02/2024     | 10/02/2024 | 📝    |                 |
-| AlunoY        | Histórias de usuário  | 01/01/2024     | 07/01/2005 | ⌛     |                 |
-| AlunoK        | Personas 1  |    01/01/2024        | 12/02/2005 | ❌    |       |
+| Isaque        | Justificativa        | 23/08/2024     | 13/09/2024 | ✔️    | 30/08/2024      |
+| Isaque        | Edição da documentação        | 23/08/2024     | 13/09/2024 | ✔️    | 13/09/2024      |
+| Maria        | Introdução    | 23/08/2024     | 13/09/2024 | ✔️    | 23/08/2024                |
+| Maria        | Contextualização    | 23/08/2024     | 13/09/2024 | ✔️    | 30/08/2024                |
+| Robson        | Participantes do Processo  | 23/08/2024     | 13/09/2024 | ✔️     | 13/09/2024                |
+| Gabriel        | Problema  |  23/08/2024    | 13/09/2024 | ✔️    | 04/09/2024      | 
+| Gabriel        | Objetivos Específicos  |  23/08/2024    | 13/09/2024 | ✔️    | 04/09/2024      |
+| Lucas        | Objetivo Geral  |  23/08/2024    | 13/09/2024 | ✔️    | 30/08/2024       | 
 
 ## Sprint 2
 
-Atualizado em: 21/04/2024
+Atualizado em: 02/11/2024
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
-| AlunaX        | Home-Page        | 01/02/2024     | 07/03/2024 | ✔️    | 05/01/2005      |
-| AlunaZ        | CSS Unificado    | 03/02/2024     | 10/03/2024 | 📝    |                 |
-| AlunoY        | Página de login  | 01/02/2024     | 07/03/2024 | ⌛     |                 |
-| AlunoK        | Script de login  |  01/01/2024    | 12/03/2024 | ❌    |       |
+| Isaque e Gabriel        | Edição da documentação        | 06/09/2024     | 04/10/202 | ✔️    | 04/10/202      |
+| Robson e Maria        | Descrição da Modelagem do Processo de Negócio        | 06/09/2024     | 04/10/2024 | ✔️    | 04/10/2024      |
+| Maria e Gabriel       | Modelagem da Situação Atual     | 06/09/2024     | 04/10/2024 | ✔️    | 04/10/2024                |
+| Maria e Gabriel       | Modelagem TO BE     | 06/09/2024     | 04/10/2024 | ✔️    | 04/10/2024                | 
+| Isaque e Lucas     | Modelagem e Detalhamento do Processo 1    | 06/09/2024     | 04/10/2024 | ✔️    | 02/10/2024                |
+| Isaque e Gabriel        | Modelagem e Detalhamento do Processo 2  | 06/09/2024     | 04/10/2024 | ✔️     | 04/10/2024                |
+| Isaque        | Modelagem e Detalhamento do Processo 3  | 06/09/2024     | 04/10/2024 | ✔️     | 02/10/2024                |
+| Isaque        | Modelagem e Detalhamento do Processo 4 |  06/09/2024    | 04/10/2024 | ✔️    | 02/10/2024      |
 
+
+## Sprint 3
+
+Atualizado em: 02/11/2024
+
+| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
+| :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
+| Isaque        | Tecnologias        | 05/10/2024     | 31/10/2024 | ✔️    |  25/10/2024     |
+| Isaque        | Arquitetura da solução        | 05/10/2024     | 31/10/2024 | ✔️    | 25/10/2024      | 
+| Isaque        | Edição da documentação        | 05/10/2024     | 31/10/2024 | ✔️    | 31/10/2024      |
+| Isaque e Lucas        |  Diagrama Entidade e Relacionamento        | 05/10/2024     | 31/10/2024 | ✔️    | 18/10/2024      |
+| Robson e Gabriel        | Telas do site  | 05/10/2024     | 31/10/2024 | ✔️     | 31/10/2024                |
+| Maria        | Criação da documentação no Github    | 05/10/2024     | 31/10/2024 | ✔️    | 25/10/2024                |
+
+## Sprint 4
+
+Atualizado em: 02/11/2024
+
+| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
+| :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
+| Isaque        | Edição da documentação no GitHub        | 01/11/2024     | 08/11/2024 | 📝    |       |
+| Isaque        | Telas Banco de Dados        | 01/11/2024     | 08/11/2024 | 📝    |       |
+| Isaque        | Planejamento do Projeto        | 01/11/2024     | 02/11/2024 | ✔️    | 02/11/2024      |
+| Maria        | Resumo do Projeto da Solução    | 01/11/2024     | 08/11/2024 | 📝    |                 |
+| Maria        | Público Alvo    | 01/11/2024     | 08/11/2024 | 📝    |                 |
+| Robson        | Requisitos Funcionais  | 01/11/2024     | 08/11/2024 | 📝     |                 |
+| Robson        | Histórias de Usuário  | 01/11/2024     | 08/11/2024 | 📝     |                 |
+| Gabriel        | Personas  |  01/11/2024    | 08/11/2024 | 📝    |       |
+| Gabriel        | Restrições  |  01/11/2024    | 08/11/2024 | 📝    |       |
+| Lucas        | Requisitos Não Funcionais  |  01/11/2024    | 08/11/2024 | 📝    |       |
 
 Legenda:
 - ✔️: terminado
 - 📝: em execução
 - ⌛: atrasado
 - ❌: não iniciado
-
-
-
-## Links Úteis
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-
-
