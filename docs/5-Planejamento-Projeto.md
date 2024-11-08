@@ -2,8 +2,8 @@
 
 ## 5.1. Divisão de Papéis
 
-- _Scrum master_: Maria Clara Maciel
-- Product Owner: Isaque Caetano Nascimento
+- Product Owner: Maria Clara Maciel
+- Scrum master: Isaque Caetano Nascimento
 - Desenvolvedor front-end: Robson Marcolino da Silva Junior
 - Desenvolvedor front-end: Gabriel Soares Reis Nunes Ferreira
 - Desenvolvedor back-end: Lucas de Paula Silva
@@ -60,16 +60,16 @@ Atualizado em: 02/11/2024
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
-| Isaque        | Edição da documentação no GitHub        | 01/11/2024     | 08/11/2024 | 📝    |       |
+| Isaque        | Edição da documentação no GitHub        | 01/11/2024     | 06/12/2024 | 📝    |       |
 | Isaque        | Telas Banco de Dados        | 01/11/2024     | 08/11/2024 | 📝    |       |
 | Isaque        | Planejamento do Projeto        | 01/11/2024     | 02/11/2024 | ✔️    | 02/11/2024      |
-| Maria        | Resumo do Projeto da Solução    | 01/11/2024     | 08/11/2024 | 📝    |                 |
-| Maria        | Público Alvo    | 01/11/2024     | 08/11/2024 | 📝    |                 |
-| Robson        | Requisitos Funcionais  | 01/11/2024     | 08/11/2024 | 📝     |                 |
-| Robson        | Histórias de Usuário  | 01/11/2024     | 08/11/2024 | 📝     |                 |
-| Gabriel        | Personas  |  01/11/2024    | 08/11/2024 | 📝    |       |
+| Maria        | Resumo do Projeto da Solução    | 01/11/2024     | 08/11/2024 | ✔️    | 08/11/2024       |
+| Maria        | Público Alvo    | 01/11/2024     | 08/11/2024 | ✔️    | 08/11/2024                |
+| Robson        | Requisitos Funcionais  | 01/11/2024     | 08/11/2024 | ✔️     |  08/11/2024               |
+| Robson        | Personas  | 01/11/2024     | 08/11/2024 | ✔️     | 08/11/2024                |
+| Gabriel        | Historias de Usuário |  01/11/2024    | 08/11/2024 |✔️    | 08/11/2024      |
 | Gabriel        | Restrições  |  01/11/2024    | 08/11/2024 | 📝    |       |
-| Lucas        | Requisitos Não Funcionais  |  01/11/2024    | 08/11/2024 | 📝    |       |
+| Lucas        | Requisitos Não Funcionais  |  01/11/2024    | 08/11/2024 | ✔️    | 06/11/2024       |
 
 Legenda:
 - ✔️: terminado

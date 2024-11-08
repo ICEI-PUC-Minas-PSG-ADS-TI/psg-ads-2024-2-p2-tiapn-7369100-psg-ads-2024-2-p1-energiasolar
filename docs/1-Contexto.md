@@ -52,13 +52,16 @@ Portanto o projeto procura facilitar o acesso a essa tecnologia, para acelerar a
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+Público Alvo
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+O público alvo é composto por pessoas que ofereçam o serviço de instalação de painéis de energia solar e pessoas que estão interessados nestes serviços ou no assunto de energia solar.
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Eles são: 
+- Pessoas maiores de 18 anos; 
+- Donos de residências que buscam reduzir a conta de energia e adotar medidas mais sustentáveis;
+- Empresas e comerciantes que desejam diminuir gastos com energia;
+- Proprietários de áreas rurais que buscam se beneficiar do uso de energia solar para reduzir os custos com equipamentos e sistemas em áreas remotas; 
+- Profissionais que precisam ou querem incluir a energia solar em novos projetos;
+- Organizações voltadas a realizar projetos sustentáveis e em impulsionar o uso de energias renováveis; 
+- Empresas que ofereçam o serviço de instalação de Energia Solar
+- Pessoas interessadas em notícias e conteúdos a respeito de energia solar

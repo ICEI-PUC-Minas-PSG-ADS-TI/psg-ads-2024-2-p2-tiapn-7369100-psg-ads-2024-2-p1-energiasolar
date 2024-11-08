@@ -1,6 +1,12 @@
 ## 4. Projeto da Solução
 
-<span style="color:red">Pré-requisitos: <a href="03-Modelagem do Processo de Negocio.md"> Modelagem do Processo de Negocio</a></span>
+O projeto de solução para o site de catálogo de empresas de energia solar é voltado para conectar clientes interessados em instalar sistemas de energia solar a empresas que prestam esse serviço, simplificando a busca e o acesso a informações sobre fornecedores. A arquitetura da aplicação é baseada em uma estrutura de front-end e back-end. O front-end é desenvolvido com HTML, CSS, JavaScript e Bootstrap, proporcionando uma interface amigável, moderna e responsiva, capaz de se adaptar a diferentes dispositivos. O uso do Bootstrap facilita a criação de componentes visuais elegantes e consistentes, permitindo um desenvolvimento mais ágil da interface.
+
+No back-end, é utilizado Node.js com o framework Express e o banco de dados MySQL para gerenciar a lógica de negócios e o armazenamento de dados. O Express permite a criação de rotas e APIs RESTful de forma eficiente, facilitando a comunicação entre o cliente e o servidor, enquanto o MySQL é responsável pelo armazenamento seguro e organizado das informações das empresas, suas localizações, especialidades, e detalhes sobre serviços e preços. Essa combinação de tecnologias garante um desempenho robusto e escalável, permitindo que o sistema suporte um grande número de usuários e consultas simultâneas.
+
+O site oferece um sistema de cadastro para empresas, onde elas podem atualizar seus perfis e serviços, e para clientes, que podem salvar empresas favoritas e realizar comparações. A modelagem de dados foi projetada para garantir relacionamentos claros entre entidades como Empresas, Serviços, Localizações e Avaliações, garantindo uma busca eficiente e organizada. A comunicação entre o navegador do usuário e o servidor é segura e eficiente, garantindo a integridade e a segurança das informações armazenadas.
+
+Com essa estrutura, o sistema busca oferecer uma experiência de navegação intuitiva e prática, ajudando os usuários a encontrar empresas de energia solar de forma rápida e confiável, com ênfase na acessibilidade e na eficiência.
 
 ## 4.1. Arquitetura da solução
 
