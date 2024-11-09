@@ -56,12 +56,11 @@ Atualizado em: 02/11/2024
 
 ## Sprint 4
 
-Atualizado em: 02/11/2024
+Atualizado em: 08/11/2024
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
 | Isaque        | Edição da documentação no GitHub        | 01/11/2024     | 06/12/2024 | 📝    |       |
-| Isaque        | Telas Banco de Dados        | 01/11/2024     | 08/11/2024 | 📝    |       |
 | Isaque        | Planejamento do Projeto        | 01/11/2024     | 02/11/2024 | ✔️    | 02/11/2024      |
 | Maria        | Resumo do Projeto da Solução    | 01/11/2024     | 08/11/2024 | ✔️    | 08/11/2024       |
 | Maria        | Público Alvo    | 01/11/2024     | 08/11/2024 | ✔️    | 08/11/2024                |
