@@ -4,7 +4,8 @@ CREATE TABLE Cliente (
     Telefone VARCHAR(20),
     Endereco VARCHAR(60),
     Nome VARCHAR(40),
-    fk_Empresa_CNPJ_Empresa VARCHAR(14)
+    fk_Empresa_CNPJ_Empresa VARCHAR(14),
+    fk_Cadastro_IDCadastro INTEGER
 );
 
 CREATE TABLE Administrador (
@@ -25,7 +26,8 @@ CREATE TABLE EmpresasParceiras (
     Nome VARCHAR(40),
     Endereco VARCHAR(60),
     Telefone VARCHAR(20),
-    fk_Empresa_CNPJ_Empresa VARCHAR(14)
+    fk_Empresa_CNPJ_Empresa VARCHAR(14),
+    fk_Cadastro_IDCadastro INTEGER
 );
 
 CREATE TABLE Funcionario (
@@ -39,12 +41,17 @@ CREATE TABLE Funcionario (
 
 CREATE TABLE Empresa (
     CNPJ_Empresa VARCHAR(14) PRIMARY KEY,
-    Nome VARCHAR (40)
+    Nome VARCHAR(40)
 );
 
 CREATE TABLE Conteudo (
     IDConteudo INTEGER PRIMARY KEY,
-    Nome VARCHAR(70)
+    Nome VARCHAR(40),
+    Categoria VARCHAR(25),
+    fk_PalavraChave_PalavraChave_PK INTEGER,
+    Descricao VARCHAR(150),
+    Resumo VARCHAR(150),
+    Texto VARCHAR(5000)
 );
 
 CREATE TABLE Atendimento_Atende (
@@ -54,9 +61,23 @@ CREATE TABLE Atendimento_Atende (
     fk_Cliente_IDCliente INTEGER
 );
 
+CREATE TABLE Cadastro (
+    TipoUsuario VARCHAR(20),
+    Senha VARCHAR(255),
+    Login VARCHAR(50),
+    IDCadastro INTEGER PRIMARY KEY,
+    Data DATE
+);
+
+CREATE TABLE PalavraChave (
+    PalavraChave_PK INTEGER NOT NULL PRIMARY KEY,
+    PalavraChave VARCHAR(20)
+);
+
 CREATE TABLE Procura (
     fk_Cliente_IDCliente INTEGER,
-    fk_EmpresasParceiras_CNPJ VARCHAR(14)
+    fk_EmpresasParceiras_CNPJ VARCHAR(14),
+    Data DATE
 );
 
 CREATE TABLE Gerencia (
@@ -72,6 +93,11 @@ CREATE TABLE Visualiza (
 ALTER TABLE Cliente ADD CONSTRAINT FK_Cliente_2
     FOREIGN KEY (fk_Empresa_CNPJ_Empresa)
     REFERENCES Empresa (CNPJ_Empresa)
+    ON DELETE CASCADE;
+ 
+ALTER TABLE Cliente ADD CONSTRAINT FK_Cliente_3
+    FOREIGN KEY (fk_Cadastro_IDCadastro)
+    REFERENCES Cadastro (IDCadastro)
     ON DELETE CASCADE;
  
 ALTER TABLE Administrador ADD CONSTRAINT FK_Administrador_2
@@ -99,10 +125,20 @@ ALTER TABLE EmpresasParceiras ADD CONSTRAINT FK_EmpresasParceiras_2
     REFERENCES Empresa (CNPJ_Empresa)
     ON DELETE CASCADE;
  
+ALTER TABLE EmpresasParceiras ADD CONSTRAINT FK_EmpresasParceiras_3
+    FOREIGN KEY (fk_Cadastro_IDCadastro)
+    REFERENCES Cadastro (IDCadastro)
+	ON DELETE CASCADE;
+    
 ALTER TABLE Funcionario ADD CONSTRAINT FK_Funcionario_2
     FOREIGN KEY (fk_Empresa_CNPJ_Empresa)
     REFERENCES Empresa (CNPJ_Empresa)
     ON DELETE RESTRICT;
+ 
+ALTER TABLE Conteudo ADD CONSTRAINT FK_Conteudo_2
+    FOREIGN KEY (fk_PalavraChave_PalavraChave_PK)
+    REFERENCES PalavraChave (PalavraChave_PK)
+    ON DELETE NO ACTION;
  
 ALTER TABLE Atendimento_Atende ADD CONSTRAINT FK_Atendimento_Atende_2
     FOREIGN KEY (fk_Suporte_ao_Cliente_fk_Funcionario_CPF)

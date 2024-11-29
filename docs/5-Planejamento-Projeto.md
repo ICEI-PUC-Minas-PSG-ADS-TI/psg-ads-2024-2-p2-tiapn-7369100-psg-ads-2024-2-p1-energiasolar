@@ -56,19 +56,25 @@ Atualizado em: 02/11/2024
 
 ## Sprint 4
 
-Atualizado em: 08/11/2024
+Atualizado em: 29/11/2024
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
-| Isaque        | Edição da documentação no GitHub        | 01/11/2024     | 06/12/2024 | 📝    |       |
-| Isaque        | Planejamento do Projeto        | 01/11/2024     | 02/11/2024 | ✔️    | 02/11/2024      |
-| Maria        | Resumo do Projeto da Solução    | 01/11/2024     | 08/11/2024 | ✔️    | 08/11/2024       |
-| Maria        | Público Alvo    | 01/11/2024     | 08/11/2024 | ✔️    | 08/11/2024                |
-| Robson        | Requisitos Funcionais  | 01/11/2024     | 08/11/2024 | ✔️     |  08/11/2024               |
-| Robson        | Personas  | 01/11/2024     | 08/11/2024 | ✔️     | 08/11/2024                |
-| Gabriel        | Historias de Usuário |  01/11/2024    | 08/11/2024 |✔️    | 08/11/2024      |
-| Gabriel        | Restrições  |  01/11/2024    | 08/11/2024 | 📝    |       |
-| Lucas        | Requisitos Não Funcionais  |  01/11/2024    | 08/11/2024 | ✔️    | 06/11/2024       |
+| Isaque        | Edição da documentação no GitHub        | 01/11/2024     | 29/12/2024 | 📝    |       |
+| Isaque        | Planejamento do Projeto        | 01/11/2024     | 29/11/2024 | ✔️    | 02/11/2024      |
+| Isaque        | Atualização Banco de Dados        | 22/11/2024     | 29/12/2024 | ✔️    | 29/11/2024      |
+| Maria        | Resumo do Projeto da Solução    | 01/11/2024     | 29/11/2024 | ✔️    | 08/11/2024       |
+| Maria        | Público Alvo    | 01/11/2024     | 29/11/2024 | ✔️    | 08/11/2024                |
+| Robson        | Requisitos Funcionais  | 01/11/2024     | 29/11/2024 | ✔️     |  08/11/2024               |
+| Robson        | Personas  | 01/11/2024     | 29/11/2024 | ✔️     | 08/11/2024                |
+| Gabriel        | Historias de Usuário |  01/11/2024    | 29/11/2024 |✔️    | 08/11/2024      |
+| Gabriel        | Restrições  |  01/11/2024    | 29/11/2024 | 📝    |       |
+| Lucas        | Requisitos Não Funcionais  |  22/11/2024    | 29/11/2024 | ✔️    | 06/11/2024       |
+| Isaque        | Criação de um indicador        | 22/11/2024     | 29/12/2024 | ✔️    | 29/11/2024      |
+| Maria        | Criação de um indicador        | 22/11/2024     | 29/12/2024 | 📝    |       |
+| Robson        | Criação de um indicador        | 22/11/2024     | 29/12/2024 | 📝    |       |
+| Gabriel        | Criação de um indicador        | 22/11/2024     | 29/12/2024 | ✔️    | 29/11/2024      |
+| Lucas        | Criação de um indicador        | 22/11/2024     | 29/12/2024 | 📝    |       |
 
 Legenda:
 - ✔️: terminado

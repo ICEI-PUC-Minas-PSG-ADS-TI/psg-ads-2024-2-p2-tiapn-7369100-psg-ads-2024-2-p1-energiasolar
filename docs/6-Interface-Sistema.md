@@ -1,8 +1,6 @@
 
 # 6. Interface do Sistema
 
-<span style="color:red">Pré-requisitos: <a href="4-Projeto-Solucao.md"> Projeto da Solução</a></span>
-
 _Visão geral da interação do usuário por meio das telas do sistema. Apresente as principais interfaces da plataforma._
 
 ## 6.1. Tela principal do sistema
@@ -36,7 +34,7 @@ Tela do formulário de entrega de feedback que o usuário irá preencher e envia
 
 Tela do formulário de cadastro de empresas parceiras que será preenchido e enviado
 
-[`Telas da Atividade 1 e  2`](images/PrototipoTelas/EntregaFeedback.jpeg)
+[`Telas da Atividade 1 e  2`](images/PrototipoTelas/CadastroEmpresaParceira.jpeg)
 
 ## 6.5 Telas do processo 4 - Consulta de Empresas e Serviços de Energia Solar
 
@@ -47,23 +45,5 @@ Tela do formulário de busca por empresas parceiras que o usuário irá acessar 
 Tela da lista de recomendações recebida pelo usuário após preencher o formulário
 
 [`Tela das Atividades 4`](images/PrototipoTelas/ListaRecomendacao.jpeg)
-
-## 6.6 Telas do Banco de Dados
-
-Tela para manipulação, remoção e observação da tabela Clientes no banco de Dados
-
-[`Tela dos Clientes`](images/Admin_Clientes.png)
-
-Tela para a criação de um novo cliente
-
-[`Tela de Adição de um Cliente`](images/Admin_AdicionarClientes.png)
-
-Tela para manipulação, remoção e observação da tabela Conteúdos no banco de Dados
-
-[`Tela dos Conteúdos`](images/Admin_GerenciarConteudo.png)
-
-Tela para a crição de um novo conteúdo no site
-
-[`Tela de Criação de Conteúdo`](images/Admin_CriarConteudo.png)
 
 
