@@ -1,4 +1,4 @@
-# Energia Solar
+# Solar
 
 `Análise e Desenvolvimento de Sistemas`
 

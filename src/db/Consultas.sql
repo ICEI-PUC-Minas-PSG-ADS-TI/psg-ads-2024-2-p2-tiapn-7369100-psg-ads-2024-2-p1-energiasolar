@@ -1,4 +1,3 @@
-
 -- Clientes atendidos pelo suporte ao cliente com a data do atendimento
 SELECT C.IDCliente, suporte_ao_cliente.fk_Funcionario_CPF AS Funcionario, atendimento_atende.Data
 FROM CLIENTE C
