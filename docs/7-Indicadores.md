@@ -40,6 +40,17 @@ Através do banco de dados onde são registrados os atendimentos
 **Usuários do indicador:** 
 Gestores do Suporte ao Cliente, Gerência geral
 
+### 7.1.1 Consulta SQL
+```sql
+SET @mes_atual = MONTH(CURRENT_DATE);
+SET @mes_anterior = MONTH(DATE_SUB(CURRENT_DATE, INTERVAL 1 MONTH));
+
+SELECT 
+    ((COUNT(CASE WHEN MONTH(DATA) = @mes_atual THEN 1 END) -
+      COUNT(CASE WHEN MONTH(DATA) = @mes_anterior THEN 1 END)) / 
+    COUNT(CASE WHEN MONTH(DATA) = @mes_anterior THEN 1 END)) * 100 AS VariacaoPercentual
+FROM atendimento_atende;
+```
 ## 7.2 Variação na busca de empresas parceiras por clientes mensalmente
 
 **Objetivo:** 
@@ -81,6 +92,24 @@ Através do banco de dados que registra as buscas por empresas parceiras
 
 **Usuários do indicador:** 
 Gerência geral e Gerência de Parcerias
+
+### 7.2.1 Consulta SQL
+```sql
+SET @mes_atual = MONTH(CURRENT_DATE);
+SET @mes_anterior = MONTH(DATE_SUB(CURRENT_DATE, INTERVAL 1 MONTH));
+
+SELECT ( 
+        COUNT(DISTINCT CASE WHEN MONTH(DATA) = @mes_atual
+        AND YEAR(DATA) = YEAR(CURRENT_DATE) THEN fk_Cliente_IDCliente END) 
+        - 
+        COUNT(DISTINCT CASE WHEN MONTH(DATA) = @mes_anterior
+		AND YEAR(DATA) = YEAR(DATE_SUB(CURRENT_DATE, INTERVAL 1 MONTH)) THEN fk_Cliente_IDCliente END)) 
+    / 
+    COUNT(DISTINCT CASE WHEN MONTH(DATA) = @mes_anterior
+	AND YEAR(DATA) = YEAR(DATE_SUB(CURRENT_DATE, INTERVAL 1 MONTH)) THEN fk_Cliente_IDCliente END) 
+    * 100 AS VariacaoPercentual
+FROM procura;
+```
 
 ## 7.3 Índice de Resolução em Primeira Interacao (IRPI)
 
