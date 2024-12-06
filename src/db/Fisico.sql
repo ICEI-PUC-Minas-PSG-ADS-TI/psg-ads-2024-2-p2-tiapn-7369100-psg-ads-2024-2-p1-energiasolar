@@ -66,7 +66,8 @@ CREATE TABLE Cadastro (
     Senha VARCHAR(255),
     Login VARCHAR(50),
     IDCadastro INTEGER PRIMARY KEY,
-    Data DATE
+    Data DATE,
+    Status VARCHAR(15)
 );
 
 CREATE TABLE PalavraChave (
@@ -90,6 +91,18 @@ CREATE TABLE Visualiza (
     fk_Conteudo_IDConteudo INTEGER
 );
  
+CREATE TABLE Entrega (
+    fk_Cliente_IDCliente INTEGER,
+    fk_Feedback_IDFeedback INTEGER
+);
+
+CREATE TABLE Feedback (
+    Funcionalidade VARCHAR(50),
+    Nota INTEGER,
+    Descricao VARCHAR(300),
+    IDFeedback INTEGER PRIMARY KEY
+);
+
 ALTER TABLE Cliente ADD CONSTRAINT FK_Cliente_2
     FOREIGN KEY (fk_Empresa_CNPJ_Empresa)
     REFERENCES Empresa (CNPJ_Empresa)
@@ -176,4 +189,14 @@ ALTER TABLE Visualiza ADD CONSTRAINT FK_Visualiza_1
 ALTER TABLE Visualiza ADD CONSTRAINT FK_Visualiza_2
     FOREIGN KEY (fk_Conteudo_IDConteudo)
     REFERENCES Conteudo (IDConteudo)
+    ON DELETE SET NULL;
+
+ALTER TABLE Entrega ADD CONSTRAINT FK_Entrega_1
+    FOREIGN KEY (fk_Cliente_IDCliente)
+    REFERENCES Cliente (IDCliente)
+    ON DELETE SET NULL;
+ 
+ALTER TABLE Entrega ADD CONSTRAINT FK_Entrega_2
+    FOREIGN KEY (fk_Feedback_IDFeedback)
+    REFERENCES Feedback (IDFeedback)
     ON DELETE SET NULL;
