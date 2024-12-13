@@ -87,7 +87,7 @@ Atualizado em: 13/12/2024
 | Isaque        | Apresentação do trabalho        | 30/11/2024     | 06/12/2024 | ✔️    | 06/12/2024      |
 | Maria        | Apresentação do trabalho    | 30/11/2024     | 06/12/2024 | ✔️    | 06/12/2024       | 
 | Lucas        | Criação de frontend de página de login, cadastro e perfil    | 30/11/2024     | 13/12/2024 | ✔️    | 06/12/2024       | 
-| Maria        | Criação de frontend da homepage    | 30/11/2024     | 13/12/2024 | ⌛    |        | 
+| Maria        | Criação de frontend da homepage    | 30/11/2024     | 13/12/2024 | ✔️    | 13/12/2024       | 
 | Gabriel        | Criação de frontend página de sugestões de empresas   | 30/11/2024     | 13/12/2024 | ✔️    | 06/12/2024       | 
 | Robson        | Criação de frontend página de feedback   | 30/11/2024     | 13/12/2024 | ✔️    | 06/12/2024       | 
 
