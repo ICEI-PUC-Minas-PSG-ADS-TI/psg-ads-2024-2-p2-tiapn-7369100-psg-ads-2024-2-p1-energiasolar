@@ -23,7 +23,17 @@ Desenvolvimento de um aplicativo que utiliza tecnologias como JavaScript, banco 
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+Este projeto precisa ser executado em Node JS!
+
+1. Abra a pasta <a href="src/Implementação/README.md">Implementação</a> no visual studio
+2. Digite npm install
+3. Vá até 'DBScripts' -> 'db.js' e altere as informações para a conexão com o banco de dados
+4. Digite npm run server no terminal
+
+Após isto o servidor estará disponível por padrão no localhost:5000
+É possível verificar todas as rotas disponíveis em APIRotas.js e index.js, 
+ex: localhost:5000/api/cliente irá mostrar todos os clientes da tabela cliente
+ex: localhost:5000/api/cadastro irá mostrar todos os cadastros da tabela cadastro
 
 # Documentação
 
@@ -41,12 +51,9 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 # Código
 
-<li><a href="src/README.md"> Código Fonte</a></li>
+<li><a href="src/Implementação/README.md"> Código Fonte</a></li>
 
 # Apresentação
 
-<li><a href="presentation/README.md"> Apresentação da solução</a></li>
-
-
-## Histórico de versões
+<li><a href="docs/apresentacao/Aplicativo Solar.pptx"> Apresentação da solução</a></li>
 

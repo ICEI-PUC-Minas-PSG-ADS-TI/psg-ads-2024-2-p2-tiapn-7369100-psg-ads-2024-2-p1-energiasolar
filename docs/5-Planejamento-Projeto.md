@@ -60,7 +60,7 @@ Atualizado em: 04/12/2024
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
-| Isaque        | Edição da documentação no GitHub        | 01/11/2024     | 29/12/2024 | 📝    |       |
+| Isaque        | Edição da documentação no GitHub        | 01/11/2024     | 29/12/2024 | ✔️    | 29/12/2024      |
 | Isaque        | Planejamento do Projeto        | 01/11/2024     | 29/11/2024 | ✔️    | 02/11/2024      |
 | Isaque        | Atualização Banco de Dados        | 22/11/2024     | 29/12/2024 | ✔️    | 29/11/2024      |
 | Maria        | Resumo do Projeto da Solução    | 01/11/2024     | 29/11/2024 | ✔️    | 08/11/2024       |
@@ -71,10 +71,25 @@ Atualizado em: 04/12/2024
 | Gabriel        | Restrições  |  01/11/2024    | 29/11/2024 | ⌛    |       |
 | Lucas        | Requisitos Não Funcionais  |  22/11/2024    | 29/11/2024 | ✔️    | 06/11/2024       |
 | Isaque        | Criação de um indicador        | 22/11/2024     | 29/12/2024 | ✔️    | 29/11/2024      |
-| Maria        | Criação de um indicador        | 22/11/2024     | 29/12/2024 | ✔️    |       |
-| Robson        | Criação de um indicador        | 22/11/2024     | 29/12/2024 | ✔️    |       |
+| Maria        | Criação de um indicador        | 22/11/2024     | 29/12/2024 | ✔️    | 29/11/2024      |
+| Robson        | Criação de um indicador        | 22/11/2024     | 29/12/2024 | ✔️    | 29/11/2024      |
 | Gabriel        | Criação de um indicador        | 22/11/2024     | 29/12/2024 | ✔️    | 29/11/2024      |
 | Lucas        | Criação de um indicador        | 22/11/2024     | 29/12/2024 | ⌛    |       |
+
+## Sprint 5
+
+Atualizado em: 13/12/2024
+
+| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
+| :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
+| Isaque        | Edição da documentação no GitHub        | 30/11/2024     | 13/12/2024 | ✔️    | 13/12/2024       |
+| Isaque        | Criação do backend da implentação        | 30/11/2024     | 13/12/2024 | ✔️    | 02/11/2024      |
+| Isaque        | Apresentação do trabalho        | 30/11/2024     | 06/12/2024 | ✔️    | 06/12/2024      |
+| Maria        | Apresentação do trabalho    | 30/11/2024     | 06/12/2024 | ✔️    | 06/12/2024       | 
+| Lucas        | Criação de frontend de página de login, cadastro e perfil    | 30/11/2024     | 13/12/2024 | ✔️    | 06/12/2024       | 
+| Maria        | Criação de frontend da homepage    | 30/11/2024     | 13/12/2024 | ⌛    |        | 
+| Gabriel        | Criação de frontend página de sugestões de empresas   | 30/11/2024     | 13/12/2024 | ✔️    | 06/12/2024       | 
+| Robson        | Criação de frontend página de feedback   | 30/11/2024     | 13/12/2024 | ✔️    | 06/12/2024       | 
 
 Legenda:
 - ✔️: terminado

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback do Usuário</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="feedback-container">
+    <nav class="feedback-nav">Feedback do Usuário</nav>
+    <div class="feedback-form">
+      
+      <!-- Formulário para informar o assunto -->
+      <form id="assuntoForm">
+        <label for="assunto">Informe o assunto a ser avaliado:</label>
+        <select id="assunto" name="assunto" required>
+          <option value="">Selecione...</option>
+          <option value="Atendimento">Atendimento</option>
+          <option value="Produto">Produto</option>
+          <option value="Entrega">Entrega</option>
+          <option value="Outro">Outro</option>
+        </select>
+        <button id="botaoRadiante" type="submit">Confirmar</button>
+      </form>
+      
+      <!-- Formulário para feedback -->
+      <form id="feedbackForm" style="display: none;">
+        <label>Nota (1 a 10):</label>
+        <div id="rating">
+            <button type="button" data-value="1">1</button>
+            <button type="button" data-value="2">2</button>
+            <button type="button" data-value="3">3</button>
+            <button type="button" data-value="4">4</button>
+            <button type="button" data-value="5">5</button>
+            <button type="button" data-value="6">6</button>
+            <button type="button" data-value="7">7</button>
+            <button type="button" data-value="8">8</button>
+            <button type="button" data-value="9">9</button>
+            <button type="button" data-value="10">10</button>
+          </div>
+          <input type="hidden" id="nota" name="nota" required>
+
+        <label for="justificativa">Justificativa:</label>
+        <textarea id="justificativa" name="justificativa" rows="4" placeholder="Explique sua nota aqui..." required></textarea>
+        
+        <button id="botaoRadiante" type="submit">Enviar</button>
+      </form>
+      
+      <p id="feedbackMessage" class="feedback-message"></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

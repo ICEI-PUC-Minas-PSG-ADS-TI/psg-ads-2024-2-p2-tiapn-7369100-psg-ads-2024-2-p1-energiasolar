@@ -1,24 +1,24 @@
 INSERT INTO Empresa (CNPJ_Empresa, Nome) VALUES
 ('12345678000195', 'Solar');
 
-INSERT INTO Cadastro (TipoUsuario, Senha, Login, IDCadastro, Data) VALUES
-('Cliente', 'senha123', 'Cliente1', 1, '2024-11-15'),
-('Cliente', 'a@ad@123', 'Cliente2', 2, '2024-10-14'),
-('Cliente', '1523@asd', 'Cliente3', 3, '2024-11-13'),
-('Cliente', '59219@', 'Cliente3', 4, '2024-10-12'),
-('Cliente', '310250a@', 'Cliente4', 5, '2024-11-11'),
-('Cliente', 's2!!@5aa', 'Cliente5', 6, '2024-10-10'),
-('Cliente', '315@asd22', 'Cliente6', 7, '2024-11-09'),
-('Cliente', 'a2)$)2a2', 'Cliente7', 8, '2024-10-07'),
-('Cliente', 'o5010o2', 'Cliente8', 9, '2024-10-06'),
-('Cliente', 'senha123', 'Cliente9', 10, '2024-11-05'),
-('Funcionario', '515ASD@', 'Func1', 11, '2024-08-30'),
-('Funcionario', 'f23@@3', 'Func2', 12, '2024-05-23'),
-('Funcionario', 'fu4@)10', 'Func3', 13, '2024-08-30'),
-('Funcionario', 'f3510@3', 'Func4', 14, '2024-05-23'),
-('Funcionario', '515b@56', 'Func5', 15, '2024-08-30'),
-('EmpresaParceira', '115a@509', 'Emp1', 16, '2024-11-08'),
-('EmpresaParceira', '240c@58', 'Emp2', 17, '2024-10-05');
+INSERT INTO Cadastro (TipoUsuario, Senha, Login, IDCadastro, Data, Status) VALUES
+('Cliente', 'senha123', 'Cliente1', 1, '2024-11-15', 'aprovado'),
+('Cliente', 'a@ad@123', 'Cliente2', 2, '2024-10-14', 'aprovado'),
+('Cliente', '1523@asd', 'Cliente3', 3, '2024-11-13', 'aprovado'),
+('Cliente', '59219@', 'Cliente3', 4, '2024-10-12', 'aprovado'),
+('Cliente', '310250a@', 'Cliente4', 5, '2024-11-11', 'aprovado'),
+('Cliente', 's2!!@5aa', 'Cliente5', 6, '2024-10-10', 'aprovado'),
+('Cliente', '315@asd22', 'Cliente6', 7, '2024-11-09', 'aprovado'),
+('Cliente', 'a2)$)2a2', 'Cliente7', 8, '2024-10-07', 'aprovado'),
+('Cliente', 'o5010o2', 'Cliente8', 9, '2024-10-06', 'aprovado'),
+('Cliente', 'senha123', 'Cliente9', 10, '2024-11-05', 'aprovado'),
+('Funcionario', '515ASD@', 'Func1', 11, '2024-08-30', 'aprovado'),
+('Funcionario', 'f23@@3', 'Func2', 12, '2024-05-23', 'aprovado'),
+('Funcionario', 'fu4@)10', 'Func3', 13, '2024-08-30', 'aprovado'),
+('Funcionario', 'f3510@3', 'Func4', 14, '2024-05-23', 'aprovado'),
+('Funcionario', '515b@56', 'Func5', 15, '2024-08-30', 'aprovado'),
+('EmpresaParceira', '115a@509', 'Emp1', 16, '2024-11-08', 'aprovado'),
+('EmpresaParceira', '240c@58', 'Emp2', 17, '2024-10-05', 'aprovado');
 
 INSERT INTO Funcionario (CPF, Nome, Telefone, Endereco, Email, fk_Empresa_CNPJ_Empresa) VALUES
 ('11111111111', 'João Silva', '31987654321', 'Rua A, 123', 'joao@solar.com', '12345678000195'),

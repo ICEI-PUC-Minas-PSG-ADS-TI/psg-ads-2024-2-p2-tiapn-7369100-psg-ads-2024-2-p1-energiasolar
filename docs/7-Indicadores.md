@@ -22,7 +22,7 @@ Setor de Suporte ao Cliente
 (∑ Atendimentos do mês atual - ∑ Atendimentos do mês anterior) / ∑ Atendimentos do mês anterior * 100
 
 **Meta:** 
-Manter a variação máxima em até 5% ao mês
+Manter a variação abaixo de 5%
 
 **Sentido:** 
 Para cima 

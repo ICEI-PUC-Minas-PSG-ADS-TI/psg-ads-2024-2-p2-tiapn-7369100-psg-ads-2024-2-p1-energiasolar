@@ -1,0 +1,131 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('https://i.pinimg.com/1200x/35/8e/4a/358e4ac74fa19fc863a9d08c6c8df887.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.feedback-container {
+  max-width: 600px;
+  margin: 50px auto; /* Centraliza verticalmente e horizontalmente */
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para destacar */
+  border-radius: 8px; /* Bordas arredondadas */
+  overflow: hidden;
+}
+
+.feedback-nav {
+  background: linear-gradient(to right, #ffde59, #ff914d);
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.feedback-form {
+  padding: 20px;
+}
+
+.feedback-message {
+  color: green;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.user-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.user-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #fdd835;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Estilo especial para o botão "Enviar" */
+#botaoRadiante {
+  background: linear-gradient(to right, #ffde59, #ff914d);
+  color: white; /* Cor do texto para contraste */
+  transition: background 0.3s ease;
+}
+
+/* Efeito hover no botão "Enviar" */
+#botaoRadiante:hover {
+  background: linear-gradient(to right, #ff914d, #ffde59);
+}
+
+
+form button:hover {
+  background-color: #fbc02d;
+}
+
+#rating {
+  display: flex;
+  justify-content: center; /* Centraliza os botões */
+  gap: 10px; /* Espaçamento entre os botões */
+  margin-bottom: 15px;
+}
+
+#rating button {
+  background-color: rgba(255, 255, 255, 0.5); /* Cor transparente */
+  color: black; /* Cor do texto */
+  border: 1px solid #ccc; /* Borda leve para manter a visibilidade */
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#rating button:hover {
+  background-color: rgba(255, 255, 255, 0.7); /* Mais opaco no hover */
+}
+
+/* Alteração no botão quando selecionado */
+#rating button.selected {
+  background: linear-gradient(to right, #ffde59, #ff914d);
+  color: white;
+}
+.feedback-message {
+  color: green;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+}
