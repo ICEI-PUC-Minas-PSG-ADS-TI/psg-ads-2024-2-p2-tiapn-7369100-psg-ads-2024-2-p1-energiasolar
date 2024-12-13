@@ -25,14 +25,17 @@ Desenvolvimento de um aplicativo que utiliza tecnologias como JavaScript, banco 
 
 Este projeto precisa ser executado em Node JS!
 
-1. Abra a pasta <a href="src/Implementação/README.md">Implementação</a> no visual studio
+1. Abra a pasta <a href="src/Implementação/README.md">Implementação</a> no visual studio (digite "cd src/Implementação" no terminal caso esteja no diretorio mais externo)
 2. Digite npm install
 3. Vá até 'DBScripts' -> 'db.js' e altere as informações para a conexão com o banco de dados
 4. Digite npm run server no terminal
 
 Após isto o servidor estará disponível por padrão no localhost:5000
-É possível verificar todas as rotas disponíveis em APIRotas.js e index.js, 
+
+É possível verificar todas as rotas disponíveis em APIRotas.js e index.js
+
 ex: localhost:5000/api/cliente irá mostrar todos os clientes da tabela cliente
+
 ex: localhost:5000/api/cadastro irá mostrar todos os cadastros da tabela cadastro
 
 # Documentação
@@ -55,5 +58,5 @@ ex: localhost:5000/api/cadastro irá mostrar todos os cadastros da tabela cadast
 
 # Apresentação
 
-<li><a href="docs/apresentacao/Aplicativo Solar.pptx"> Apresentação da solução</a></li>
+<li><a href="docs/apresentacao/"> Apresentação da solução</a></li>
 
