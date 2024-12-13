@@ -101,6 +101,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
+|02| O desenvolvimento deve ser realizado utilizando as tecnologias definidas, como JavaScript, Node.js e MySQL        |
+|03| Toda a documentação deve ser entregue no formato definido pela instituição
+|04| Apenas o banco de dados MySQL pode ser utilizado no projeto
+|05| O aplicativo será otimizado apenas para os navegadores Chrome e Edge, sem garantia de compatibilidade com outros navegadores ou sistemas operacionais antigos.
+|06| O projeto não se compromete em solucionar questões como a variação de preços regionais ou a necessidade de visitas técnicas.
+|07| As senhas dos usuários serão armazenadas em texto simples no banco de dados, sem criptografia ou hash nesta versão do projeto.
